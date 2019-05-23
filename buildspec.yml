@@ -5,7 +5,7 @@ phases:
   install:
     runtime-versions:
       java: openjdk8
-  post_build:
+  build:
     commands:
       - cd demo
       - mvn clean package
