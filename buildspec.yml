@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  post_build:
+    commands:
+      - cd demo
+      - mvn clean package
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'target'

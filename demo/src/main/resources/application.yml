@@ -1,0 +1,5 @@
+server:
+  port: ${SERVER_PORT:5000}
+  
+demo:
+  environmentTest: ${ENVIRONMENT_TEST:not set}
